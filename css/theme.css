@@ -11,7 +11,7 @@
  7. Nav
  8. Tooltips
  9. Alerts
- 10. Iconsb
+ 10. Icons
  11. Forms
  12. Accordions
  13. Tabs
@@ -495,13 +495,6 @@ blockquote {
   background: #fff;
   border-color: #47b475;
 }
-.bg-secondary.zelena {
-  background: #00FA9A;
-  color: white
-}
-.bg-secondary.zelena h6 {
- color: white 
-}
 blockquote .author {
   font-size: 12px;
   display: block;
@@ -795,9 +788,9 @@ footer.bg-dark li,
   background: #47b475;
   color: #fff;
 }
-.btn-cerny {
-  background: #000;
-  color: #fff;
+.btn-blue {
+  background: #0000FF;
+  color: #fff !important;
 }
 .btn-white,
 .image-bg .btn,
@@ -2157,6 +2150,10 @@ button[type="submit"] .form-loading {
   background: #47b475;
   color: #fff;
 }
+.accordion-1 .active2 .title {
+  background: #0000FF;
+  color: #fff;
+}
 .accordion-1 .content {
   border: 1px solid #eee;
   border-top: none;
@@ -2179,6 +2176,9 @@ button[type="submit"] .form-loading {
 }
 .accordion-1 .active .title:hover {
   background: #47b475;
+}
+.accordion-1 .active2 .title:hover {
+  background: #0011FF;
 }
 .accordion-2 .title {
   font-size: 16px;
@@ -5055,11 +5055,11 @@ footer.bg-dark a {
 .mt0 {
   margin-top: 0 !important;
 }
-.mt64 {
-  margin-top: 64px;
-}
 .mt8 {
   margin-top: 8px;
+}
+.mt40 {
+  margin-top: 40px;
 }
 .pt0 {
   padding-top: 0;
